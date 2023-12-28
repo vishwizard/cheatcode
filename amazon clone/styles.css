@@ -1,0 +1,168 @@
+/**For the whole project **/
+ * {
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+
+/**For the Navigation bar **/
+.navbar{
+    background-color: #0F1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/**For the Amazon Logo **/
+.nav-logo{
+    height: 50px;
+    width: 110px;
+}
+
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+/**For the Address Elements **/
+.add1{
+font-size: 0.85rem;
+color: #cccccc;
+margin-left: 15px;
+}
+
+.add2{
+font-size: 1rem;
+margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/**For the Search Box **/
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+
+.search-select{
+    background-color: #f3f3f3 ;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+}
+
+.search-icon{
+    background-color: #febd68;
+    width: 45px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+}
+
+/**For the Country Selection **/
+
+/**For the User and Sign in buttons **/
+
+.span{
+    font-size: 0.7rem;
+}
+
+.Accounts-and-Lists{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nav-cart i{
+    font-size: 35px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.secondary-bar{
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.All{
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.All i{
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+.panel-options{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    font-size: 0.85rem;
+    margin-left: 10px;
+}
+
+.hero-section{
+    background:url(hero_image.jpg);
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    background-size: cover;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    width:80%;
+    height: 40px;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 0.85rem;
+}
+
+.shop-section{
+    
+}
